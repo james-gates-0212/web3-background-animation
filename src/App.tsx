@@ -1,6 +1,5 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
-import Clouds from './backgrounds/Clouds';
 import Home from './pages/Home';
 import NavBar from './components/Navbar';
 import Stars from './backgrounds/Stars';
@@ -13,7 +12,6 @@ function App() {
   return (
     <>
       <Stars />
-      <Clouds />
       <div
         style={{
           position: 'relative',

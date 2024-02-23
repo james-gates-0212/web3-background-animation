@@ -2,8 +2,8 @@ import { Col, Container, Row } from 'react-bootstrap';
 
 function About() {
   return (
-    <Container className="px-5">
-      <h1 className="my-5">About me</h1>
+    <Container className="p-5">
+      <h1>About me</h1>
       <Row>
         <Col xs={6}>
           <p style={{ fontSize: '1.25em' }}>

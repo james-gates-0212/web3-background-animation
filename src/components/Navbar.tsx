@@ -26,6 +26,7 @@ function NavBar() {
       expand="md"
       variant="dark"
       className={[navColor ? 'sticky' : false].filter(Boolean).join('')}
+      fixed="top"
     >
       <Container>
         <Navbar.Brand as={Link} to={'/'} className="d-flex white">

@@ -2,7 +2,26 @@ import cloudImage from './cloud.png';
 import moonImage from './moon.png';
 import './clouds.css';
 
-export default function Clouds() {
+export function CloudsLeft() {
+  return (
+    <div className="clouds">
+      <img
+        className="cloud-gelatine"
+        src={cloudImage}
+        style={{
+          position: 'fixed',
+          top: 50,
+          left: 150,
+          width: 200,
+          height: 200,
+          animationDuration: '5s',
+        }}
+      />
+    </div>
+  );
+}
+
+export function CloudsRight() {
   return (
     <div className="clouds">
       <img
@@ -15,18 +34,6 @@ export default function Clouds() {
           width: 250,
           height: 250,
           animationDuration: '10s',
-        }}
-      />
-      <img
-        className="cloud-gelatine"
-        src={cloudImage}
-        style={{
-          position: 'fixed',
-          top: 50,
-          left: 150,
-          width: 200,
-          height: 200,
-          animationDuration: '5s',
         }}
       />
       <img
