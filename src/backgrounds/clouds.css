@@ -1,0 +1,29 @@
+.cloud-gelatine {
+  animation: ease-in-out cloud-gelatine infinite;
+}
+
+@keyframes cloud-gelatine {
+  from,
+  to {
+    transform: scale(1, 1) translateY(0);
+  }
+
+  50% {
+    transform: scale(1.05, 1.05) translateY(-10px);
+  }
+}
+
+.moon-gelatine {
+  animation: ease-in-out moon-gelatine infinite;
+}
+
+@keyframes moon-gelatine {
+  from,
+  to {
+    transform: scale(1, 1) translateY(0);
+  }
+
+  50% {
+    transform: scale(1.05, 1.05) translateY(-5px);
+  }
+}
