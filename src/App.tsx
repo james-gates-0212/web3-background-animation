@@ -5,8 +5,8 @@ import NavBar from './components/Navbar';
 import Stars from './backgrounds/Stars';
 import About from './pages/About';
 
-const isDevelopmentMode = process.env.NODE_ENV === 'development';
-const isProductionMode = process.env.NODE_ENV === 'production';
+// const isDevelopmentMode = import.meta.env.NODE_ENV === 'development';
+// const isProductionMode = import.meta.env.NODE_ENV === 'production';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
           zIndex: 1000,
         }}
       >
-        <Router basename={isProductionMode ? '/web3-background-animation' : '/'}>
+        <Router basename="/web3-background-animation">
           <div className="App">
             <NavBar />
             <Routes>
