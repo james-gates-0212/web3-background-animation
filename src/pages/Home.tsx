@@ -1,4 +1,3 @@
-import { Col, Container, Row } from 'react-bootstrap';
 import { Parallax, ParallaxBanner, ParallaxProvider } from 'react-scroll-parallax';
 
 import { BannerLayer } from 'react-scroll-parallax/dist/components/ParallaxBanner/types';
