@@ -1,59 +1,35 @@
 {
   "name": "web3-background-animation",
-  "version": "0.1.0",
   "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
     "@types/bootstrap": "^5.2.10",
-    "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.83",
-    "@types/react": "^18.2.57",
-    "@types/react-dom": "^18.2.19",
     "bootstrap": "^5.3.3",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.1",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.1",
-    "react-scripts": "5.0.1",
     "react-scroll-parallax": "^3.4.5",
     "react-tsparticles": "^2.12.2",
-    "tsparticles": "^2.12.0",
-    "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "tsparticles": "^2.12.0"
   },
   "devDependencies": {
-    "ejs": "^3.1.10",
-    "express": "^4.19.2",
-    "follow-redirects": "^1.15.6",
-    "nth-check": "^2.1.1",
-    "postcss": "^8.4.38",
-    "prettier": "^3.2.5",
-    "webpack-dev-middleware": "^5.3.4"
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
   }
 }
